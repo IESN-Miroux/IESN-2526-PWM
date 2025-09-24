@@ -1,0 +1,43 @@
+@import url(font.css);
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 20px 50px;
+}
+
+.links {
+    margin: 20px;
+    font-family: 'Heebo-Medium';
+    color: #1A0604;
+    text-decoration: none;
+}
+
+#OR {
+    color: #EF472D;
+}
+
+#MP1 {
+    margin: 0;
+    background: url(../img/background.jpg);
+    height: 720px;
+}
+
+#MP1TXT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px;
+
+}
+
+#TR {
+    font-family: 'Heebo-Medium';
+    color: #FFFFFF;
+}

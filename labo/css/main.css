@@ -1,3 +1,35 @@
+@import url(font.css);
+
+body {
+    background-image: url("../img/Screenshot\ From\ 2025-09-24\ 13-56-26.png");
+    background-repeat: repeat;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+h1 {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 20%;
+}
+
+p {
+    font-size: 20px;
+}
+
+#logo {
+    height: 200px;
+}
+
 .aside_list {
     list-style-type: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
 }

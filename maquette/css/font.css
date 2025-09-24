@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Heebo-Regular';
+    src: url('../font/Heebo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Heebo-Medium';
+    src: url('../font/Heebo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Heebo-Black';
+    src: url('../font/Heebo-Black.ttf') format('truetype');
+}

@@ -12,32 +12,78 @@ header {
     padding: 20px 50px;
 }
 
-.links {
+p {
+    font-family: 'Heebo-Regular';
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
     margin: 20px;
     font-family: 'Heebo-Medium';
     color: #1A0604;
     text-decoration: none;
 }
 
-#OR {
+button {
+    background-color: #EF472D;
+    border: none;
+    border-radius: 12px;
+    margin: 20px 0px;
+    padding: 25px;
+    width: 400px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.OR {
     color: #EF472D;
+}
+
+h1 {
+        font-family: 'Heebo-Black';
+        font-size: 48px;
+        margin: 0;
 }
 
 #MP1 {
     margin: 0;
+    height: 1080px;
     background: url(../img/background.jpg);
-    height: 720px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-#MP1TXT {
+#MP1-EL {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 75px;
+    padding: 275px 0px 0px 250px;
+}
 
+#MP2 {
+    margin: 50px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#MP2-EL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #TR {
     font-family: 'Heebo-Medium';
+    font-size: 56px;
     color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+#Titre {
+    font-size: 128px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 1.05;
 }

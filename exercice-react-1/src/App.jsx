@@ -14,6 +14,10 @@ function App() {
     console.log(color);
   }
 
+function ColorIsBlue(props) {
+  return <p>Blue</p>;
+}
+
   return (
     <>
       <div>
@@ -27,7 +31,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => changeColor() }>
-          {color}
+          {color=='Blue' && <ColorIsBlue/>}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
